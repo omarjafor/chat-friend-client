@@ -4,7 +4,9 @@ const axiosPublic = axios.create({
     // withCredentials : true,
 })
 function UseAxiosPublic() {
-  return axiosPublic;
+  return (
+    axiosPublic
+  )
 }
 
 
